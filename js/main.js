@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Happy two month anniversary dear').split('');
+        const titles = ('selamat tanggal 5, Love!').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Thank you for accepting me for who I am and thank you for sticking with me this far. I am lucky to have you and always will be. I love you so bad sayang";
+            subtitle.innerText = " biggest thank you for the chances you gave me, truly appreciate it ❤️";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
